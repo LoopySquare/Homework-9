@@ -16,7 +16,11 @@
 <br><br>
 ## Usage
 ### To use this application, choose to open the index.js file in integrated terminal and type "node .\index.js" . Follow along with the prompts until you see a Success! message. The entered information will then be used to automatically create a stylized readMe. 
-![example picture](./assets/nodetest.png)
+
+
+https://user-images.githubusercontent.com/85306141/131042158-3688242f-fa7c-4e65-9980-7b4c3cc8f256.mp4
+
+
 <br><br>
 ## License
 ### MIT

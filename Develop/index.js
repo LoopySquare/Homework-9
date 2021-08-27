@@ -28,7 +28,7 @@ var questions = new Promise(function (resolve, reject) {
         {
             type: "input",
             name: "examples",
-            message: "Provide examples for use by sumbitting screenshots. Include file desintation and name. (ex: .assets/img/example.png)"
+            message: "Provide examples for use by sumbitting screenshots. Include file desintation and name. (ex: ./assets/img/example.png)"
         },
         {
             type: "list",

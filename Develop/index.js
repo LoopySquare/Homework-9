@@ -98,43 +98,7 @@ questions.then(function(data){
 ## Questions
 ### If you have any questions please reach out to me via email: ${data.email} or through my github account: [${data.account}](https://github.com/${data.account})
     `
-//  const html = 
-//     `
-//     <!DOCTYPE html>
-//     <html lang="en">
-//     <head>
-//         <meta charset="UTF-8">
-//         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-//         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-//         <title>Document</title>
-//         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.css" />
-//         <link rel="stylesheet" type="text/css" href="./style.css">
-//     </head>
-//     <body>
-//         <section class="hero is-success is-halfheight has-text-centered">
-//             <div class="hero-body">
-//                 <div class="">
-//                 <p class="title">
-//                     Hello, my name is
-//                 </p>
-//                 <p class="title">
-//                     ${data.name}
-//                 </p>
-//                 <p class="subtitle">
-//                     I am a ${data.title}
-//                 </p>
-//                 </div>
-//             </div>
-//         </section>
-//     <h1 class="profile">${data.name}</h1>
-//     <div class="profile">${data.title}</div>
-//     <div class="profile">${data.age}</div>
-//     <div class="profile">${data.location}</div>
-//     <div class="profile">${data.bio}</div>
-//     <script type="text/javascript" src="script.js"></script>
-//     </body>
-//     </html>  
-// `;
+
     fs.writeFile('README.md', readMe, function (err) {
         if (err) {
             return console.log(err);
